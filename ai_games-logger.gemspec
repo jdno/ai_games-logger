@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ai_games/logger/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'AIGames::Logger'
+  spec.name          = 'ai_games-logger'
   spec.version       = AIGames::Logger::VERSION
   spec.authors       = ['Jan David Nose']
   spec.email         = ['jandavid@awesometechnology.de']
