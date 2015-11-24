@@ -12,12 +12,9 @@ module AIGames
     ERROR = 3
 
     class << self
-
       # Sets the output stream the logger uses. For tests, pass StringIO.new. If
       # you do not initialize the output stream, $stderr is used.
-      def output=(output)
-        @output = output
-      end
+      attr_writer :output
 
       # Returns the log level. If the log level has not been set, the default
       # log level is returned.
@@ -27,9 +24,7 @@ module AIGames
 
       # Sets the log level. Available options are DEBUG, INFO, WARN,ERROR.
       def log_level=(log_level)
-        if [DEBUG, INFO, WARN, ERROR].include?(log_level)
-          @log_level = log_level
-        end
+        @log_level = log_level if [DEBUG, INFO, WARN, ERROR].include?(log_level)
       end
 
       # Returns true if the log level is currently set to DEBUG. Use this before
