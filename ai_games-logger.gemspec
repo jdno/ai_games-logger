@@ -28,6 +28,6 @@ to STDERR, where it is picked up by The AI Games' game engines.
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'minitest'
-  spec.add_development_dependency 'rubocop'
+  spec.add_development_dependency 'minitest', '~> 0'
+  spec.add_development_dependency 'rubocop', '~> 0'
 end
