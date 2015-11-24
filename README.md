@@ -22,7 +22,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+First, import the logger using the following `require` statement:
+
+```ruby
+require 'ai_games/logger'
+```
+
+Now, you can use the logger like this:
+
+```ruby
+Logger.debug 'Hello World!' if Logger.debug?
+```
 
 ## Development
 
