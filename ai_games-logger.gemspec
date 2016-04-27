@@ -5,7 +5,7 @@ require 'ai_games/logger/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'ai_games-logger'
-  spec.version       = AIGames::Logger::VERSION
+  spec.version       = AiGames::Logger::VERSION
   spec.authors       = ['Jan David Nose']
   spec.email         = ['jandavid@awesometechnology.de']
 
