@@ -1,6 +1,6 @@
 require 'test_helper'
 
-module AIGames
+module AiGames
   class LoggerTest < Minitest::Test
     def setup
       @output = StringIO.new
@@ -8,7 +8,7 @@ module AIGames
     end
 
     def test_that_it_has_a_version_number
-      refute_nil ::AIGames::Logger::VERSION
+      refute_nil ::AiGames::Logger::VERSION
     end
 
     def test_debug?

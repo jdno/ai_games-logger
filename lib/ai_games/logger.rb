@@ -1,6 +1,6 @@
 require 'ai_games/logger/version'
 
-module AIGames
+module AiGames
   # The Logger is a simple logging facility that is indented to be used by bots
   # in any competition by The AI Games. It provides four log levels (DEBUG,
   # INFO, WARN and ERROR) and writes the logs to STDERR, where they are picked
